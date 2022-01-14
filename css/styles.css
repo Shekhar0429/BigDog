@@ -1,0 +1,193 @@
+.ml-auto{
+  margin-left: auto;
+}
+h1,h2,h3,h4{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+h2{
+  font-size: 2rem;
+}
+h3{
+  font-size: 1.1rem;
+  line-height: 1.5;
+
+}
+p{
+  color: gray;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-link:hover{
+  background: #ff4c68;
+  color: black;
+  border-radius:20px;
+  padding: 0.2rem 1rem;
+}
+/* -----------------------------------heading--------------------------- */
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% ;
+}
+.bar{
+  margin:auto 0 auto 53%;
+}
+/* Navigation-bar */
+.navbar-brand{
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight:normal;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: 1%;
+}
+.navbar-collapse bar a:hover{
+  color: black;
+}
+/* features */
+#features{
+  padding: 7% 5%;
+  background: #fff;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 8%;
+}
+.tick{
+  color:#ef8172;
+   padding-bottom: 5%;
+}
+.tick:hover{
+  color: #ff4c68;
+}
+
+/* testimonial section */
+
+#testimonials{
+padding: 7% 15%;
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+.testimonial-img{
+width: 12%;
+border-radius: 100%;
+margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+  /* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/*-------------------------- footer --------------------*/
+#cta{
+  background: #ff4c68;
+  padding: 5%;
+  text-align: center;
+  color: #f7fff7;
+
+}
+#cta h3{
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  margin:auto;
+}
+.btnn{
+  margin: 3% 1%;
+}
+#footer{
+  background: #fff;
+  text-align: center;
+  padding: 3%;
+  padding-bottom: 1%;
+}
+.footer-icon {
+  margin: 1%;
+}
+@media (max-width:1028px) {
+   #title{
+     text-align:
+
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* ---------move to top------- */
+#myBtn{
+  display: none;
+  position: fixed;
+  top: auto;
+  bottom: 100px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: #EDEDED;
+  cursor: pointer;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+  font-size: 28px;
+}
+#myBtn:hover{
+  background: #FF9292;
+}
